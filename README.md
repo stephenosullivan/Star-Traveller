@@ -1,7 +1,8 @@
 # Star-Traveller problem
 ## Execution
-With java 1.8:
-java -jar tester.jar -exec "python StarTraveller_x.py" -seed 0 -vis
+The code should be run with java 1.8 and python 2.7:
+
+java -jar tester.jar -exec "python StarTraveller.py" -seed 0 -vis
 
 ## The Problem
 
