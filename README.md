@@ -1,5 +1,9 @@
-# Star-Traveller
-Competition code
+# Star-Traveller problem
+## Execution
+With java 1.8:
+java -jar tester.jar -exec "python StarTraveller_x.py" -seed 0 -vis
+
+## The Problem
 
 Given a 2D grid containing N stars, S ships and U ufos the problem was to have each star visited by at least one ship in 4N moves. The cost of moving a ship is given by its Euclidean distance. The problem can be described as a multiple travelling salesman problem (mTSP) with no restriction on the salesman having to return to a designated depot (which seems to be the most popular version in the literature).
 
