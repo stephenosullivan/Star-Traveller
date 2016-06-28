@@ -1,7 +1,7 @@
 # Star-Traveller
 Competition code
 
-Given a 2D grid containing N stars, S ships and U ufos the problem is to have each star visited by at least one ship in 4N moves. The cost of moving a ship is given by its Euclidean distance. The problem can be described as a multiple travelling salesman problem (mTSP) with no restriction on the salesman having to return to a designated depot (which seems to be the most popular version in the literature).
+Given a 2D grid containing N stars, S ships and U ufos the problem was to have each star visited by at least one ship in 4N moves. The cost of moving a ship is given by its Euclidean distance. The problem can be described as a multiple travelling salesman problem (mTSP) with no restriction on the salesman having to return to a designated depot (which seems to be the most popular version in the literature).
 
 There are two addendums to this problem which complicate matters. Firstly the cost of travelling is reduced by a factor of 1000 if a ship tracks a ufo and secondly there is a restriction on the computational capacity in that the simulation needs to run in 20 seconds. Note that N is at most 2000.
 
